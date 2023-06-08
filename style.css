@@ -81,6 +81,23 @@
                     background-image: linear-gradient( to right, #bfefff, #8dd2f3, #5fb4e8, #3594dc, #1874cd);
                 }
                 
+                .cartext {
+                    font-weight: 600;
+                    color: black;
+                }
+                
+                .carousel-control-prev-icon,
+                .carousel-control-next-icon {
+                    outline: black !important;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    background-size: 100%, 100%;
+                }
+                
+                .mylinks {
+                    text-decoration: underline;
+                    color: black;
+                }
+                
                 @media only screen and (max-width: 767px) {
                     .card {
                         margin: 0 auto;
