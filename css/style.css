@@ -1,0 +1,50 @@
+.project-card {
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.project-card * {
+  pointer-events: none; /* Ensures the full card remains clickable, not just child elements */
+}
+
+.hero-section {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #2de98e, #928dab); /* Replace with any colors */
+  color: white;
+}
+
+
+.skill-card {
+  height: 160px;               /* Fixed card height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.skill-card img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
