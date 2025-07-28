@@ -21,12 +21,17 @@
 }
 
 .hero-section {
-  min-height: 35vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  min-height: 30vh;
   display: flex;
   align-items: center;
   padding: 60px 0;
-  background: linear-gradient(135deg, #2de98e, #928dab); /* Replace with any colors */
-  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
 }
 
 
